@@ -13,11 +13,16 @@ pip install -r requirements.txt
 ```
 
 # Quickstart
-Run it as a python script in your terminal with link to shorten as a required parameter.
+Run it as a python script in your terminal with link to shorten as a required parameter
 ```bash
-$ python short_me.py <url to shorten>
+$ python3 short_me.py https://www.youtube.com/watch?v=sFrNsSnk8GM
+http://bit.ly/2DOlc5Y
 ```
-
+To see bit.ly link clicks statistics just provide it to the script the same way
+```bash
+$ python3 short_me.py http://bit.ly/2DOlc5Y
+total bit.ly clicks: 1
+```
 All available parameters are:
 ```bash
 usage: short_me.py [-h] link

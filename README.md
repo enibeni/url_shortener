@@ -1,4 +1,4 @@
-# Bitly url shorterer
+# Bitly url shortener
 Shorten your link via bit.ly service with this simple command line utility. 
 
 
